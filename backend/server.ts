@@ -8,7 +8,7 @@ import projectRouter from './routes/projectRoutes.js';
 import { stripeWebhook } from './controllers/stripeWebhook.js';
 const app = express();
 
-const port = 3000;
+const port = 5000;
 const corsOptions = {
     origin: process.env.TRUSTED_ORIGINS?.split(',') || [],
     credentials: true,
